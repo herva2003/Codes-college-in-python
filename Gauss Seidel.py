@@ -29,7 +29,7 @@ def testando_matriz(matriz, linha, coluna):
     return ban
 
 
-def gauss_seidel(matriz, linha, coluna, ):
+def gauss_jordan(matriz, linha, coluna, ):
     for i in range(linha):
         for j in range(coluna):
             if i == j:
@@ -106,7 +106,7 @@ def resultado():
 
         result_matriz = testando_matriz(matriz, linha, coluna)
         if result_matriz:
-            gauss_seidel(matriz, linha, coluna)
+            gauss_jordan(matriz, linha, coluna)
             inicio = 65
             for i in range(linha):
                 print(f' {chr(inicio)} = {matriz[i][-1]:.2f}')

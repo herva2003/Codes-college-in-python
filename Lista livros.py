@@ -1,6 +1,3 @@
-# FEITO POR GABRIEL VICTOR GRACINI HERVATIN
-
-
 print("C A D A S T R O   L I V R O S\n\n> Entrada de Dadosy\n")
 
 quantidade_livros = int(input("Número de livros? "))
